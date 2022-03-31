@@ -1,0 +1,7 @@
+## [optional]基于opencv4.5环境的编译命令(可在docker环境下编译)
+g++ `pkg-config --cflags opencv4` main.cpp `pkg-config --libs opencv4` -Wl,-rpath=libs -o main
+
+## 运行命令
+./main img1 img2...
+
+
