@@ -1,0 +1,1 @@
+g++ -g -I /root/lili_opencv_dy/include/opencv4 -I /usr/include main_full.cpp model.o  -L /root/lili_opencv_dy/lib/ -lopencv_dnn -lopencv_imgcodecs -lopencv_imgproc -lopencv_core -Wl,-rpath=./libs -o main_full_dy
